@@ -1,25 +1,44 @@
 <section class="top-nav">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-6">
-                <ul class="list-inline">
-                    <img src="assets/images/globo.jpg">
-                    <li class="list-inline-item g1"><a href="#">g1</a></li>
-                    <li class="list-inline-item ge"><a href="#">ge</a></li>
-                    <li class="list-inline-item gshow"><a href="#">gshow</a></li>
-                    <li class="list-inline-item tech"><a href="#">tech</a></li>
-                    <li class="list-inline-item videos"><a href="#">vídeos</a></li>     
+            <div class="col-12 col-md-6 text-left">
+            <img src="assets/images/globo.jpg">
+            
+                <ul class="list-inline menu">
+                    <li class="list-inline-item">
+                        <a href="#" class="g1">g1 <i class="fas fa-chevron-down"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="ge">ge <i class="fas fa-chevron-down"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="gshow">gshow <i class="fas fa-chevron-down"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="tech">tech</i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="vídeos">vídeos<i class="fas fa-chevron-down"></i></a>
+                    </li>    
                 </ul>
             </div>
 
             <div class="col-12 col-md-6 text-right">
-                <ul class="list-inline">
-                    <li class="list-inline-item"><a href="#">ASSINE JÁ</a></li>
-                    <li class="list-inline-item"><a href="#">MINHA CONTA</a></li>
-                    <li class="list-inline-item"><a href="#">E-MAIL</a></li>
-                    <input class="text" placeholder="encontre na globo.com">
-                    <img src="assets/images/icon-user.svg"> 
+                <ul class="list-inline user-menu">
+                    <li class="list-inline-item">
+                        <a href="#">Assine Já</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#">Minha Conta</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#">E-mail <i class="fas fa-chevron-down"></i></a>
+                    </li>
                 </ul>
+                <form action="" method="GET">
+                    <input type="text" placeholder="encontre na globo.com">
+                </form>
+                <img src="assets/images/icon-user.svg" alt="Login" class="user-icon">
             </div>
         </div>
     </div>
