@@ -1,0 +1,15 @@
+section.menu {
+    margin-top: 25px;
+}
+
+section.menu .left-side {
+    border-right: 0px solid gray;
+}
+
+section.menu .right-side {
+    border-left: 1px solid gray;
+}
+
+section.menu .rosa {
+    border-bottom: 1px solid gray;
+}
